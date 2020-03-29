@@ -23,6 +23,11 @@
    * df.info()：数据观察，各种变量的数据列，可以快速总观数据
    * df.shape()：数据框的大小（数据的含量）
    * df.describe(include=“all”)：描述性统计，所有变量的最大最小值的数据
-    > df.describe()：运行生成数据框
+     > df.describe()：运行生成数据框
+#### 五、代码片段切片（code sinppets）
+1. 列子集：
+   * df.loc()
+   * df.iloc()
+   
     
    
