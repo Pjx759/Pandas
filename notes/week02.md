@@ -61,8 +61,8 @@ df.plot()
 ```
 %matplotlib inline
 import matplotlib as mpl  
-mpl.rcParams['font.sans-serif']=['SimHei'] # 用来正常显示中文标签  
-mpl.rcParams['axes.unicode_minus']=False # 用来正常显示负号 
+mpl.rcParams['font.sans-serif']=['SimHei']        # 用来正常显示中文标签  
+mpl.rcParams['axes.unicode_minus']=False     # 用来正常显示负号 
 ```
 #### 七、派生新列：指的是变数的转换
 ![第七点图片](https://pandas.pydata.org/pandas-docs/version/1.0.2/_images/05_newcolumn_2.svg)
