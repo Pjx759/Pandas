@@ -26,8 +26,31 @@
      > df.describe()：运行生成数据框
 #### 五、代码片段切片（code sinppets）
 1. 列子集：
-   * df.loc()
-   * df.iloc()
+```python
+
+df.loc()
+df.iloc()
+df.set_index()
+df.head(n)
+df.tail(n)
+df.nlargest(n, '变量')
+df.nsmallest(n, '变量')
+df[df.估值（亿人民币）> 10]
+```
+2.行子集：
+```python
+
+df[['变量X','变量Y','变量Z']]
+df[['变量X']]
+df['变量X']
+```
+3.列+行子集：
+```python
+
+df.loc[:,['变量X':'变量Z']]    # 注意中括号里的: 和 ,的使用
+df.iloc[:,[1,2,5]]    # iloc一定是数字
+df.loc[df['变量X']>10, ['变量X','变量Z'] ]   
+```
    
     
    
