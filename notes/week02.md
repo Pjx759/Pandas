@@ -56,7 +56,22 @@ df.loc[df['变量X']>10, ['变量X','变量Z'] ]
 ```python
 df.plot()
 ```
+* 绘图基本语法：（需要背下！）
+```
+%matplotlib inline
+import matplotlib as mpl  
+mpl.rcParams['font.sans-serif']=['SimHei'] #用来正常显示中文标签  
+mpl.rcParams['axes.unicode_minus']=False #用来正常显示负号 
+```
+#### 七、派生新列：指的是变数的转换
+![05_newcolumn_2.svg](https://pandas.pydata.org/pandas-docs/version/1.0.2/_images/05_newcolumn_2.svg)
+* 基本用语
+```python
 
+df['新变量'] = df['变量X'] + df['变量Y']
+df['新变量'] = [ 转换(x) for x in df['变量Y'] ]     # 列表推导转换
+
+```
 
 
 
