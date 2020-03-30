@@ -25,6 +25,7 @@
    * df.describe(include=“all”)：描述性统计，所有变量的最大最小值的数据
      > df.describe()：运行生成数据框
 #### 五、代码片段切片（code sinppets）
+![第五点图片](https://pandas.pydata.org/pandas-docs/version/1.0.2/_images/03_subset_columns_rows.svg)
 1. 列子集：
 ```python
 
@@ -64,7 +65,7 @@ mpl.rcParams['font.sans-serif']=['SimHei'] #用来正常显示中文标签
 mpl.rcParams['axes.unicode_minus']=False #用来正常显示负号 
 ```
 #### 七、派生新列：指的是变数的转换
-![05_newcolumn_2.svg](https://pandas.pydata.org/pandas-docs/version/1.0.2/_images/05_newcolumn_2.svg)
+![第七点图片](https://pandas.pydata.org/pandas-docs/version/1.0.2/_images/05_newcolumn_2.svg)
 * 基本用语
 ```python
 
