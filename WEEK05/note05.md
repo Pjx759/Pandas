@@ -1,1 +1,19 @@
-
+## Week05
+### 一、回顾
+* 数据分析：Excel——>csv——>tsv
+### 二、pandas数据流程
+1. 估量
+2. 时间轴（横轴）
+3. 左因右果
+* 数据视图：长度更长，宽度更窄，是更符合机器阅读
+### 三、新知识点
+1. pivot：Excel的二维模式，且参数不一定要
+   * 空缺值存在意义、手段
+   * 缺失值成正态分布
+2. pivot_table：【index、colums、values、aggfunc】四个重点参数
+   * axis=1：第二维
+   * sum：
+   * loc：切片
+   * assign：总值排序
+   * ascending：升序
+   * inplace = False：直接取代
